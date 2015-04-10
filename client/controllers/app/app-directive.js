@@ -12,4 +12,4 @@ module.exports = ['template', function ($compile, template) {
       }), el[0]);
     }
   };
-}]
+}];
