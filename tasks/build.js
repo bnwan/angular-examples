@@ -2,7 +2,7 @@
 
 var build = require('build-module');
 
-var transforms = ['sassify', 'partialify', 'reactify'];
+var transforms = ['node-lessify', 'partialify', 'reactify'];
 var isDebug = true;
 
 var argv = require('minimist')(process.argv.slice(2));
@@ -19,7 +19,7 @@ var bundleOptions = {
 build.bundle({
   output: './build/app-defaults.bundle.js',
   root: './client/app-defaults.js',
-  transforms: ['cssify', 'uglifyify'],
+  transforms: transforms,
   bundleOptions: bundleOptions
 });
 

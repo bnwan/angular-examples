@@ -1,1 +1,2 @@
-require('./vendor/uikit/css/uikit.min.css');
+require('bootstrap/less/bootstrap.less');
+require('./style/base.less');

@@ -1,13 +1,11 @@
 var cpy = require('cpy');
 
-cpy([	
+cpy([
 	'index.html',
-	'vendor/uikit/**/*.js',
-	'vendor/uikit/**/*.css',
 	'vendor/modernizr-*.min.js'
 ], '../build/', {
 	cwd: 'client',
   parents: true
-}, function () {    
+}, function () {
 	console.log('files copied');
 });

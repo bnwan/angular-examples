@@ -1,7 +1,6 @@
 var angular = require('angular');
-var app = require('./controllers/app');
+var toolbar = require('./modules/toolbar');
 
-angular.module('DashboardApp', [
-  app.name
+angular.module('App', [
+  toolbar.name
 ]);
-
