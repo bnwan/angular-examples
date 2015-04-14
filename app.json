@@ -1,0 +1,29 @@
+{
+  "devtools_port": 9090,
+  "startup_app": {
+    "name": "Reactive Trader",
+    "uuid": "reactive-trader-js",
+    "url": "http://localhost:8080/index.html",
+    "applicationIcon": "http://localhost:8000/images/adaptive_mark_250x.png",
+    "autoShow": true,
+    "defaultWidth": 970,
+    "defaultHeight": 90,
+    "width": 970,
+    "height": 90,
+    "maxWidth": 970,
+    "maxHeight": 90,
+    "frame": true,
+    "resizable": false,
+    "maximizable": false
+  },
+  "runtime": {
+    "arguments": "",
+    "version": "stable"
+  },
+  "shortcut": {
+    "company": "Adaptive Consulting",
+    "description": "Reactive trader as a JS app",
+    "icon": "http://localhost:8000/images/adaptive_mark_250x.png",
+    "name": "Reactive Trader JS"
+  }
+}
